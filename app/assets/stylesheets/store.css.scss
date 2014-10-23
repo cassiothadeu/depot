@@ -5,7 +5,7 @@
 
 /* START_HIGHLIGHT */
 .store {
-  h1 {
+  h1{
     margin: 0;
     padding-bottom: 0.5em;
     font:  150% sans-serif;
@@ -40,6 +40,9 @@
       margin-left: 100px;
       margin-top: 0.5em; 
       margin-bottom: 0.8em; 
+      form, div {
+        display: inline;
+      }
     }
 
     .price {
